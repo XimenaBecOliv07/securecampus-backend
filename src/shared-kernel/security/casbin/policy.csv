@@ -1,0 +1,23 @@
+p, STUDENT, profile, read-own
+p, STUDENT, profile, update-own
+p, STUDENT, grade, read
+p, STUDENT, document, read
+p, STUDENT, document, upload
+p, STUDENT, request, create
+p, STUDENT, request, read
+
+p, PROFESSOR, profile, read-own
+p, PROFESSOR, group, read
+p, PROFESSOR, roster, read
+p, PROFESSOR, grade, read
+p, PROFESSOR, grade, write
+
+p, CAREER_HEAD, professor, create
+p, CAREER_HEAD, professor, deactivate
+p, CAREER_HEAD, group, create
+p, CAREER_HEAD, enrollment, create
+
+p, ADMIN, user, manage
+p, ADMIN, role, manage
+p, ADMIN, permission, manage
+p, ADMIN, audit, read

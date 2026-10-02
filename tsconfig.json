@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES2021",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "paths": {
+      "@shared/*": ["src/shared-kernel/*"],
+      "@modules/*": ["src/modules/*"]
+    }
+  }
+}
