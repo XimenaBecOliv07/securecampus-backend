@@ -21,3 +21,5 @@ p, ADMIN, user, manage
 p, ADMIN, role, manage
 p, ADMIN, permission, manage
 p, ADMIN, audit, read
+p, ADMIN, profile, read-own
+p, ADMIN, profile, update-own
