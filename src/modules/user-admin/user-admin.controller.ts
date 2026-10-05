@@ -41,9 +41,9 @@ export class UserAdminController {
     return this.admin.assignRole(user, id, roleName, scopeCareerId);
   }
 
-  @Get('../audit-log')
+  @Get('audit-log')
   @CheckPolicy('audit', 'read')
   auditLog(@CurrentUser() user: AuthenticatedUser) {
-    return this.admin.readAuditLog(user);
-  }
+  return this.admin.readAuditLog(user);
+}
 }
